@@ -6,19 +6,16 @@
         <p class="text-teal-50 mb-12">Soy una desarrolladora WEB apasionada por crear soluciones únicas y efectivas para problemas reales.</p>
         <router-link to="/proyectos">Ver mi trabajo</router-link>
     </div>
-    <pie/>
 
 </template>
 
 <script>
 
 import cabecera from './cabecera.vue'
-import pie from './pie.vue'
 
 export default {
     components: {
-        cabecera,
-        pie
+        cabecera
     }
 }
 </script>

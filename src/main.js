@@ -7,12 +7,16 @@ import inicio from './components/Inicio.vue'
 import sobre from './components/sobre.vue'
 import skills from './components/skills.vue'
 import proyectos from './components/proyectos.vue'
+import servicios from './components/servicios.vue'
+import contacto from './components/contacto.vue'
 
 const routes = [
     { path: '/', component: inicio, name: 'inicio' },
     { path: '/sobre', component: sobre, name: 'sobre' },
     { path: '/skills', component: skills, name: 'skills' },
     { path: '/proyectos', component: proyectos, name: 'proyectos' },
+    { path: '/servicios', component: servicios, name: 'servicios' },
+    { path: '/contacto', component: contacto, name: 'contacto' },
 ]
 
 const router = createRouter({

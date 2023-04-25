@@ -63,7 +63,7 @@
      <div class="skill flex items-center mb-4">
       <div class="skill-name flex-1 text-lg">PL/Sql</div>
       <div class="skill-bar pl rounded-2xl h-5 ml-4 relative w-4/5 bg-gray-300 py-4">
-        <div class="skill-progress" :style="{width: illustrator + '%'}">10%</div>
+        <div class="skill-progress" :style="{width: illustrator + '%'}">15%</div>
       </div>
     </div>
   </div>
@@ -82,6 +82,8 @@
         php: 40,
         laravel: 50,
         symfony: 35,
+        MySql: 50,
+        pl: 15,
         vue: 75
       };
     },
@@ -246,7 +248,7 @@
       width: 0;
     }
     100% {
-      width: 10%;
+      width: 15%;
     }
   }
 
