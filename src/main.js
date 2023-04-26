@@ -9,6 +9,7 @@ import skills from './components/skills.vue'
 import proyectos from './components/proyectos.vue'
 import servicios from './components/servicios.vue'
 import contacto from './components/contacto.vue'
+import testimonios from './components/testimonios.vue'
 
 const routes = [
     { path: '/', component: inicio, name: 'inicio' },
@@ -17,6 +18,7 @@ const routes = [
     { path: '/proyectos', component: proyectos, name: 'proyectos' },
     { path: '/servicios', component: servicios, name: 'servicios' },
     { path: '/contacto', component: contacto, name: 'contacto' },
+    { path: '/testimonios', component: testimonios, name: 'testimonios' },
 ]
 
 const router = createRouter({

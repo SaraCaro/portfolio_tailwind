@@ -2,11 +2,11 @@
 
     <cabecera/>
     <div class="container mx-auto px-6">
-        <div class="flex flex-col md:flex-row justify-center items-center md:items-start md:justify-between mt-16 mb-16">
+        <div class="flex flex-col md:flex-row justify-center items-center md:items-start md:justify-between mt-16">
             <div class="md:w-1/2">
                 <img src="../../public/webDeveloper.png" alt="Sobre mí" class="rounded-lg shadow-2xl">
             </div>
-            <div class="md:w-1/2">
+            <div class="md:w-1/2 mt-16">
                 <h1 class="text-4xl font-bold mb-8 text-black">Sobre mí</h1>
                 <p class="text-black mb-12">
                     ¡Hola! Soy Sara, una apasionada desarrolladora web que ha estado estudiando durante dos años. Me encanta la tecnología y siempre estoy buscando nuevas formas de aprender y mejorar mis habilidades.
@@ -34,3 +34,8 @@ export default {
 }
 </script>
 
+
+<style scoped>
+
+
+</style>

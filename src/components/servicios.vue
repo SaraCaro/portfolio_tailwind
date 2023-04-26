@@ -17,7 +17,7 @@
             <div class="service">
                 <i class="fa-solid fa-laptop"></i>
                 <h3>Técnica de Ordenadores</h3>
-                <p>Si tu ordendar está roto o tienes que cambiar cualquier componente, yo puedo ayudarte con eso</p>
+                <p>Si tu ordenador está roto o tienes que cambiar cualquier componente, yo puedo ayudarte con eso</p>
             </div>
             <div class="service">
                 <i class="fa-brands fa-uncharted"></i>
@@ -45,6 +45,7 @@ export default {
 <style scoped>
 
 
+
 .service{
     display: flex;
     flex-direction: column;
@@ -57,7 +58,7 @@ export default {
 
     /* transicion */
     position: relative;
-    background-color: #aca984;
+    background-color: #67a09b;
     padding: 2rem;
     color:white;
     z-index: 1;
@@ -67,6 +68,9 @@ export default {
     scale: 2;
 }
 
+
+@media screen and (min-width: 768px) {
+    
 .service::after,
 .service::before{
     content: "";
@@ -92,8 +96,11 @@ export default {
     transform: scaleX(1);
 }
 .service:hover{
-    color: #979577;
+    color: #aca98c;
 }
+
+}
+    
 
 .service h3{
     font-size: 2.1em;
@@ -103,5 +110,13 @@ export default {
     text-align: center;
 }
 
+
+@media screen and (max-width: 1200px) {
+    .service{
+        width: 80vw;
+        height: 40vh;
+    }
+    
+}
 
 </style>

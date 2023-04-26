@@ -43,13 +43,13 @@
      <div class="skill flex items-center mb-4">
       <div class="skill-name flex-1 text-lg">Laravel</div>
       <div class="skill-bar laravel rounded-2xl h-5 ml-4 relative w-4/5 bg-gray-300 py-4">
-        <div class="skill-progress" :style="{width: php + '%'}">50%</div>
+        <div class="skill-progress" :style="{width: laravel + '%'}">50%</div>
       </div>
     </div>
      <div class="skill flex items-center mb-4">
       <div class="skill-name flex-1 text-lg">Symfony</div>
       <div class="skill-bar symfony rounded-2xl h-5 ml-4 relative w-4/5 bg-gray-300 py-4">
-        <div class="skill-progress" :style="{width: php + '%'}">35%</div>
+        <div class="skill-progress" :style="{width: symfony + '%'}">35%</div>
       </div>
     </div>
     
@@ -57,13 +57,13 @@
      <div class="skill flex items-center mb-4">
       <div class="skill-name flex-1 text-lg">MySql</div>
       <div class="skill-bar MySql rounded-2xl h-5 ml-4 relative w-4/5 bg-gray-300 py-4">
-        <div class="skill-progress" :style="{width: photoshop + '%'}">50%</div>
+        <div class="skill-progress" :style="{width: MySql + '%'}">50%</div>
       </div>
     </div>
      <div class="skill flex items-center mb-4">
       <div class="skill-name flex-1 text-lg">PL/Sql</div>
       <div class="skill-bar pl rounded-2xl h-5 ml-4 relative w-4/5 bg-gray-300 py-4">
-        <div class="skill-progress" :style="{width: illustrator + '%'}">15%</div>
+        <div class="skill-progress" :style="{width: pl + '%'}">15%</div>
       </div>
     </div>
   </div>

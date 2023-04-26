@@ -1,9 +1,12 @@
 <template>
 
     <cabecera/>
-    <div class="inicio flex flex-col items-center justify-center h-screen bg-[url(/fondoInicio.jpg)] bg-no-repeat bg-cover">
-        <h1 class="text-4xl font-bold mb-8 text-white">Bienvenido a mi portafolio</h1>
-        <p class="text-teal-50 mb-12">Soy una desarrolladora WEB apasionada por crear soluciones únicas y efectivas para problemas reales.</p>
+    <div class="inicio flex flex-col items-center justify-center h-screen bg-[url(/fondo.jpg)] bg-no-repeat bg-cover">
+        <div class="cuadro flex flex-col items-center justify-center text-black bg-white p-8 rounded-md">
+            <h1 class="text-4xl font-bold mb-8">Bienvenido a mi portafolio</h1>
+            <p class="mb-12">Soy una desarrolladora WEB apasionada por crear soluciones únicas y efectivas para problemas reales.</p>
+            
+        </div>
         <router-link to="/proyectos">Ver mi trabajo</router-link>
     </div>
 
@@ -22,12 +25,18 @@ export default {
 
 <style>
 
+.cuadro{
+    opacity: 0.8;
+}
+
 
 .inicio a{
     position: relative;
     padding: 0.5rem 0.5rem;
+    margin-top: 3em;
     text-decoration: none;
     color: white;
+    font-size: 1.2rem;
 }
 
 .inicio a:link::after,
