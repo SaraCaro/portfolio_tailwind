@@ -2,7 +2,7 @@
     <cabecera/>
     
     <div>
-        <h2 class="text-4xl font-bold mt-8 text-center">Testimonios</h2>
+        <h2 class="text-4xl font-bold mt-8 text-center font-oswald">Testimonios</h2>
         <div class="bg-gray-100 py-8 flex flex-row flex-wrap mt-14">
             <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-6 mb-4">
                 <img class="w-24 h-24 rounded-full object-cover mb-4 mx-auto" src="../../public/perfil1.jpg" alt="perfil">

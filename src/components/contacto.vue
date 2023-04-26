@@ -9,7 +9,7 @@
 					class="w-full h-auto hidden lg:block lg:w-5/12 bg-cover rounded-l-lg"
 					src="../../public/contacto.png"/>
 				<div class="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none">
-					<h3 class="pt-4 text-2xl text-center font-bold">Contacto</h3>
+					<h3 class="pt-4 text-3xl text-center font-bold font-oswald">Contacto</h3>
 					<form class="px-8 pt-6 pb-8 mb-4 bg-white rounded">
 						<div class="mb-4 md:flex md:justify-between">
 							<div class="mb-4 md:mr-2 md:mb-0">

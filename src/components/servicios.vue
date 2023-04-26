@@ -3,7 +3,7 @@
 
 <section id="cuerpo" class="mb-10">
     <div id="services">
-        <h2 class="text-4xl font-bold mb-8 mt-8 text-center">Servicios</h2>
+        <h2 class="text-4xl font-bold mb-8 mt-8 text-center font-oswald">Servicios</h2>
         <div class="services-container flex flex-row flex-wrap justify-center items-center text-center">
             <div class="service">
                 <i class="fa-solid fa-user"></i>

@@ -3,7 +3,7 @@
     <cabecera/>
     <section class="bg-gray-100 py-10">
     <div class="container mx-auto">
-      <h2 class="text-4xl font-bold mb-8 text-center">Proyectos</h2>
+      <h2 class="text-4xl font-bold mb-8 text-center font-oswald">Proyectos</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div class="bg-white shadow-2xl rounded-lg">
           <img src="../../public/proyecto2.png" alt="Proyecto 2" class="rounded-t-lg">

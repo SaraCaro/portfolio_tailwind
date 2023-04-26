@@ -11,6 +11,11 @@ module.exports = {
       backgroundImage: {
         'fondo-inicio': "url('../../public/fondo.jpg')",
         'sobre': "url('../../public/webDeveloper.png')",
+      },
+
+      fontFamily: {
+        'oswald': "'Oswald', 'sans-serif'",
+        'karla': "'Karla', 'sans-serif'",
       }
     },
   },
