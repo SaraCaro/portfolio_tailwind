@@ -1,7 +1,7 @@
 <template>
 
     <cabecera/>
-    <div class="inicio flex flex-col items-center justify-center h-screen bg-[url(/fondo.jpg)] bg-no-repeat bg-cover">
+    <div class="inicio flex flex-col items-center justify-center bg-[url(/fondo.jpg)] bg-no-repeat bg-cover">
         <div class="cuadro flex flex-col items-center justify-center text-black bg-white p-8 rounded-md">
             <h1 class="text-4xl font-bold mb-8">Bienvenido a mi portafolio</h1>
             <p class="mb-12">Soy una desarrolladora WEB apasionada por crear soluciones únicas y efectivas para problemas reales.</p>
@@ -9,16 +9,18 @@
         </div>
         <router-link to="/proyectos">Ver mi trabajo</router-link>
     </div>
-
+    <pie/>
 </template>
 
 <script>
 
 import cabecera from './cabecera.vue'
+import pie from './pie.vue'
 
 export default {
     components: {
-        cabecera
+        cabecera,
+        pie,
     }
 }
 </script>
@@ -29,6 +31,9 @@ export default {
     opacity: 0.8;
 }
 
+.inicio{
+    height:91.6vh;
+}
 
 .inicio a{
     position: relative;

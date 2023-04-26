@@ -1,7 +1,8 @@
 <template>
 
     <cabecera/>
-    <div class="container mx-auto px-6">
+    <section id="cuerpo" class="mb-10">
+        <div class="container mx-auto px-6">
         <div class="flex flex-col md:flex-row justify-center items-center md:items-start md:justify-between mt-16">
             <div class="md:w-1/2">
                 <img src="../../public/webDeveloper.png" alt="Sobre mí" class="rounded-lg shadow-2xl">
@@ -20,22 +21,29 @@
             </div>
         </div>
     </div>
+    </section>
 
+    <pie/>
 </template>
 
 <script>
 
 import cabecera from './cabecera.vue'
+import pie from './pie.vue'
 
 export default {
     components: {
-        cabecera
+        cabecera,
+        pie
     }
 }
 </script>
 
 
 <style scoped>
-
+#cuerpo {
+  position: relative;
+  min-height: 85vh;
+}
 
 </style>

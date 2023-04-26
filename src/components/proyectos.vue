@@ -56,19 +56,21 @@
       </div>
     </div>
   </section>
+    <pie/>
 </template>
 
 
 <script>
 
-import cabecera from './cabecera.vue';
+import cabecera from './cabecera.vue'
+import pie from './pie.vue'
 
 export default {
-  name: 'proyectos',
-  components: {
-    cabecera
-  },
-};
+    components: {
+        cabecera,
+        pie,
+    }
+}
 
 </script>
 

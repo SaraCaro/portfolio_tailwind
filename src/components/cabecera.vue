@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-teal-800 p-4 flex justify-between items-center sticky top-0">
+  <nav class="bg-teal-800 p-4 flex justify-between items-center sticky top-0 z-10">
     <div class="flex items-center">
       <router-link to="/">
         <img src="../../public/logo.png" alt="Logo" class="w-48 mr-4">
@@ -67,7 +67,7 @@ export default {
     font-size: 1.1em;
   }
 }
-  
+
 
 </style>
 

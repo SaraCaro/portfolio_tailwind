@@ -1,5 +1,6 @@
 <template>
     <cabecera />
+    <section id="cuerpo">
     <div class="skills text-center max-w-screen-sm mx-auto">
     <h2 class="font-bold text-3xl mb-6 mt-6">Front-end</h2>
     <div class="skill flex items-center mb-4">
@@ -67,10 +68,13 @@
       </div>
     </div>
   </div>
+  </section>
+    <pie />
   </template>
   
   <script>
   import cabecera from './cabecera.vue';
+  import pie from './pie.vue';
   export default {
     name: 'Skills',
     data() {
@@ -88,12 +92,19 @@
       };
     },
     components: {
-      cabecera
+      cabecera,
+      pie
     },
   };
   </script>
   
   <style>
+
+#cuerpo {
+  position: relative;
+  min-height: 82.5vh;
+}
+
 
   .skill-progress {
     border-radius: 20px;
