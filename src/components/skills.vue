@@ -54,7 +54,7 @@
       </div>
     </div>
     
-    <h2 class="font-bold text-3xl mb-6 mt-6 font-oswald">Base de Datos</h2>
+    <h2 class="font-bold text-3xl mb-6 mt-6 font-oswald">DataBases</h2>
      <div class="skill flex items-center mb-4">
       <div class="skill-name flex-1 text-lg">MySql</div>
       <div class="skill-bar MySql rounded-2xl h-5 ml-4 relative w-4/5 bg-gray-300 py-4">

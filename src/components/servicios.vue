@@ -3,28 +3,34 @@
 
 <section id="cuerpo" class="mb-10">
     <div id="services">
-        <h2 class="text-4xl font-bold mb-8 mt-8 text-center font-oswald">Servicios</h2>
+        <h2 class="text-4xl font-bold mb-8 mt-8 text-center font-oswald">Services</h2>
         <div class="services-container flex flex-row flex-wrap justify-center items-center text-center">
             <div class="service">
                 <i class="fa-solid fa-user"></i>
-                <h3>Desarrollador de Front-end</h3>
-                <p>Puedo trabajar con HTML, CSS y JavaScript para hacer algunas animaciones en tu página web y hacerla más responsiva</p>
+                <h3>Front-end Developer</h3>
+                <p>
+                    I can work with HTML, CSS and JavaScript tomake some animations in your website and make it more responsive
+                </p>
             </div>
             <div class="service">
                 <i class="fa-solid fa-code"></i>
-                <h3>Diseñadora Web</h3>
-                <p>Con los lenguajes de marca soy capaz de hacer diseños bonitos y minimalistas en las páginas web</p>
+                <h3>Web Designer</h3>
+                <p>
+                    With markup languages I can make beautiful and minimalist designs in websites
+                </p>
             </div>
             <div class="service">
                 <i class="fa-solid fa-laptop"></i>
-                <h3>Técnica de Ordenadores</h3>
-                <p>Si tu ordenador está roto o tienes que cambiar cualquier componente, yo puedo ayudarte con eso</p>
+                <h3>Computer Technician</h3>
+                <p>
+                    If your computer is broken or you have to change any component, I can help you with that
+                </p>
             </div>
             <div class="service">
                 <i class="fa-brands fa-uncharted"></i>
-                <h3>Técnica de Software</h3>
+                <h3>Software Technician</h3>
                 <p>
-                    Yo tengo las herramientas para solucionar problemas con tu software y también puedo instalar sistemas operativos o programas que tu necesites
+                    I have the tools to solve problems with your software and I can also install operating systems or programs that you need
                 </p>
             </div>
         </div>
@@ -104,12 +110,11 @@ export default {
     transform: scaleX(1);
 }
 .service:hover{
-    color: #aca98c;
+    color: #979371;
 }
 
 }
     
-
 .service h3{
     font-size: 2.1em;
     font-weight: 700;

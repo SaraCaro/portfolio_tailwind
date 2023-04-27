@@ -3,11 +3,13 @@
     <cabecera/>
     <div class="inicio flex flex-col items-center justify-center bg-[url(/fondo.jpg)] bg-no-repeat bg-cover">
         <div class="cuadro flex flex-col items-center justify-center text-black bg-white p-8 rounded-md">
-            <h1 class="text-4xl font-bold mb-8 font-oswald">Bienvenido a mi portafolio</h1>
-            <p class="mb-12 font-karla text-lg">Soy una desarrolladora WEB apasionada por crear soluciones únicas y efectivas para problemas reales.</p>
+            <h1 class="text-4xl font-bold mb-8 font-oswald">Welcome to my portfolio</h1>
+            <p class="mb-12 font-karla text-lg">
+                I am a web developer passionate creating unique and effective solutions for real problems
+            </p>
             
         </div>
-        <router-link to="/proyectos">Ver mi trabajo <i class="fa-solid fa-paper-plane"></i></router-link>
+        <router-link to="/proyectos">My Work <i class="fa-solid fa-paper-plane"></i></router-link>
     </div>
     <pie/>
 </template>

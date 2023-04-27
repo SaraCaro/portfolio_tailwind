@@ -623,6 +623,10 @@ video {
   margin-top: 4rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mt-28 {
   margin-top: 7rem;
 }
@@ -637,6 +641,14 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .block {
@@ -1004,12 +1016,12 @@ video {
   text-align: center;
 }
 
-.font-oswald {
-  font-family: 'Oswald', 'sans-serif';
-}
-
 .font-karla {
   font-family: 'Karla', 'sans-serif';
+}
+
+.font-oswald {
+  font-family: 'Oswald', 'sans-serif';
 }
 
 .text-3xl {

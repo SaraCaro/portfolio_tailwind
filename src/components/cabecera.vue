@@ -9,25 +9,25 @@
     <div class="links md:flex md:items-center md:w-auto" :class="isOpen ? 'block' : 'hidden'" @click.away="isOpen = false">
       <div class="flex flex-row flex-wrap text-sm md:flex-grow">
         <router-link to="/" class="block mt-4 md:inline-block md:mt-0 text-white hover:border-white transition duration-300 ease-in-out border-b-2 border-transparent mr-4 font-bold">
-          Inicio
+          Home
         </router-link>
         <router-link to="/sobre" class="block mt-4 md:inline-block md:mt-0 text-white hover:border-white transition duration-300 ease-in-out border-b-2 border-transparent mr-4 font-bold">
-          Sobre Mi
+          About
         </router-link>
         <router-link to="/skills" class="block mt-4 md:inline-block md:mt-0 text-white hover:border-white transition duration-300 ease-in-out border-b-2 border-transparent mr-4 font-bold">
           Skills
         </router-link>
         <router-link to="/proyectos" class="block mt-4 md:inline-block md:mt-0 text-white hover:border-white transition duration-300 ease-in-out border-b-2 border-transparent mr-4 font-bold">
-          Proyectos
+          Projects
         </router-link>
         <router-link to="/servicios" class="block mt-4 md:inline-block md:mt-0 text-white hover:border-white transition duration-300 ease-in-out border-b-2 border-transparent mr-4 font-bold">
-          Servicios
+          Services
         </router-link>
         <router-link to="/testimonios" class="block mt-4 md:inline-block md:mt-0 text-white hover:border-white transition duration-300 ease-in-out border-b-2 border-transparent mr-4 font-bold">
-          Testimonios
+          Testimonies
         </router-link>
         <router-link to="/contacto" class="block mt-4 md:inline-block md:mt-0 text-white hover:border-white transition duration-300 ease-in-out border-b-2 border-transparent mr-4 font-bold">
-          Contacto
+          Contact
         </router-link>
       </div>
     </div>
